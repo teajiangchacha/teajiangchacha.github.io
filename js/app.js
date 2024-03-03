@@ -1,4 +1,4 @@
-var CONFIG = {"version":"0.2.5","hostname":"https://www.guiwuli.icu","root":"/","statics":"/","favicon":{"normal":"images/favicon.ico","hidden":"images/failure.ico"},"darkmode":false,"auto_scroll":true,"js":{"valine":"gh/amehime/MiniValine@4.2.2-beta10/dist/MiniValine.min.js","chart":"npm/frappe-charts@1.5.0/dist/frappe-charts.min.iife.min.js","copy_tex":"npm/katex@0.12.0/dist/contrib/copy-tex.min.js","fancybox":"combine/npm/jquery@3.5.1/dist/jquery.min.js,npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js,npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js"},"css":{"valine":"css/comment.css","katex":"npm/katex@0.12.0/dist/katex.min.css","mermaid":"css/mermaid.css","fancybox":"combine/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css,npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css"},"loader":{"start":true,"switch":false},"search":{"appID":"PYRORD1GJI","apiKey":"2b4cdc11e4a10f4a367fade473088912","indexName":"Guiwuli-code","hits":{"per_page":10}},"valine":{"appId":null,"appKey":null,"placeholder":"ヽ(○´∀`)ﾉ♪","avatar":"mp","pageSize":10,"lang":"zh-CN","visitor":true,"NoRecordIP":false,"serverURLs":null,"powerMode":true,"tagMeta":{"visitor":"新朋友","master":"主人","friend":"小伙伴","investor":"金主粑粑"},"tagColor":{"master":"var(--color-orange)","friend":"var(--color-aqua)","investor":"var(--color-pink)"},"tagMember":{"master":null,"friend":null,"investor":null}},"quicklink":{"timeout":3000,"priority":true},"localSearch":{"enable":true,"path":"search.json","field":"post","format":"html","limit":10000,"content":true,"unescape":true,"preload":true,"trigger":"auto","pageSize":10},"audio":[{"title":"列表1","list":["https://music.163.com/#/playlist?id=2943811283","https://music.163.com/#/playlist?id=2297706586"]},{"title":"列表2","list":["https://music.163.com/#/playlist?id=2031842656"]}],"fireworks":["rgba(255,182,185,.9)","rgba(250,227,217,.9)","rgba(135,206,250,.9)","rgba(147,112,219,.9)","rgba(138,198,209,.9)"]};const getRndInteger = function (min, max) {
+var CONFIG = {"version":"0.2.5","hostname":"https://www.guiwuli.icu","root":"/","statics":"https://fastly.jsdelivr.net/gh/teajiangchacha/teajiangchacha.github.io@latest/","favicon":{"normal":"images/favicon.ico","hidden":"images/failure.ico"},"darkmode":false,"auto_scroll":true,"js":{"valine":"gh/amehime/MiniValine@4.2.2-beta10/dist/MiniValine.min.js","chart":"npm/frappe-charts@1.5.0/dist/frappe-charts.min.iife.min.js","copy_tex":"npm/katex@0.12.0/dist/contrib/copy-tex.min.js","fancybox":"combine/npm/jquery@3.5.1/dist/jquery.min.js,npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js,npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js"},"css":{"valine":"css/comment.css","katex":"npm/katex@0.12.0/dist/katex.min.css","mermaid":"css/mermaid.css","fancybox":"combine/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css,npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css"},"loader":{"start":true,"switch":false},"search":{"appID":"PYRORD1GJI","apiKey":"2b4cdc11e4a10f4a367fade473088912","indexName":"Guiwuli-code","hits":{"per_page":10}},"valine":{"appId":null,"appKey":null,"placeholder":"ヽ(○´∀`)ﾉ♪","avatar":"mp","pageSize":10,"lang":"zh-CN","visitor":true,"NoRecordIP":false,"serverURLs":null,"powerMode":true,"tagMeta":{"visitor":"新朋友","master":"主人","friend":"小伙伴","investor":"金主粑粑"},"tagColor":{"master":"var(--color-orange)","friend":"var(--color-aqua)","investor":"var(--color-pink)"},"tagMember":{"master":null,"friend":null,"investor":null}},"quicklink":{"timeout":3000,"priority":true},"localSearch":{"enable":true,"path":"search.json","field":"post","format":"html","limit":10000,"content":true,"unescape":true,"preload":true,"trigger":"auto","pageSize":10},"audio":[{"title":"列表1","list":["https://music.163.com/#/playlist?id=2943811283","https://music.163.com/#/playlist?id=2297706586"]},{"title":"列表2","list":["https://music.163.com/#/playlist?id=2031842656"]}],"fireworks":["rgba(255,182,185,.9)","rgba(250,227,217,.9)","rgba(135,206,250,.9)","rgba(147,112,219,.9)","rgba(138,198,209,.9)"]};const getRndInteger = function (min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
@@ -6,12 +6,12 @@ const getDocHeight = function () {
   return $('main > .inner').offsetHeight;
 }
 
-const getScript = function(url, callback, condition) {
+const getScript = function (url, callback, condition) {
   if (condition) {
     callback();
   } else {
     var script = document.createElement('script');
-    script.onload = script.onreadystatechange = function(_, isAbort) {
+    script.onload = script.onreadystatechange = function (_, isAbort) {
       if (isAbort || !script.readyState || /loaded|complete/.test(script.readyState)) {
         script.onload = script.onreadystatechange = null;
         script = undefined;
@@ -23,41 +23,41 @@ const getScript = function(url, callback, condition) {
   }
 }
 
-const assetUrl = function(asset, type) {
+const assetUrl = function (asset, type) {
   var str = CONFIG[asset][type]
-  if(str.indexOf('npm')>-1||str.indexOf('gh')>-1||str.indexOf('combine')>-1)
-    return "//cdn.jsdelivr.net/" + str
+  if (str.indexOf('npm') > -1 || str.indexOf('gh') > -1 || str.indexOf('combine') > -1)
+    return "//fastly.jsdelivr.net/" + str
 
-  if(str.indexOf('http')>-1)
+  if (str.indexOf('http') > -1)
     return str
 
   return statics + str;
 }
 
-const vendorJs = function(type, callback, condition) {
-  if(LOCAL[type]) {
-    getScript(assetUrl("js", type), callback || function(){
+const vendorJs = function (type, callback, condition) {
+  if (LOCAL[type]) {
+    getScript(assetUrl("js", type), callback || function () {
       window[type] = true;
     }, condition || window[type]);
   }
 }
 
-const vendorCss = function(type, condition) {
-  if(window['css'+type])
+const vendorCss = function (type, condition) {
+  if (window['css' + type])
     return;
 
-  if(LOCAL[type]) {
+  if (LOCAL[type]) {
 
     document.head.createChild('link', {
       rel: 'stylesheet',
       href: assetUrl("css", type)
     });
 
-    window['css'+type] = true;
+    window['css' + type] = true;
   }
 }
 
-const pjaxScript = function(element) {
+const pjaxScript = function (element) {
   var code = element.text || element.textContent || element.innerHTML || '';
   var parent = element.parentNode;
   parent.removeChild(element);
@@ -85,33 +85,33 @@ const pjaxScript = function(element) {
   parent.appendChild(script);
 }
 
-const pageScroll = function(target, offset, complete) {
+const pageScroll = function (target, offset, complete) {
   var opt = {
     targets: typeof offset == 'number' ? target.parentNode : document.scrollingElement,
     duration: 500,
     easing: "easeInOutQuad",
     scrollTop: offset || (typeof target == 'number' ? target : (target ? target.top() + document.documentElement.scrollTop - siteNavHeight : 0)),
-    complete: function() {
+    complete: function () {
       complete && complete()
     }
   }
   anime(opt);
 }
 
-const transition = function(target, type, complete) {
+const transition = function (target, type, complete) {
   var animation = {}
   var display = 'none'
-  switch(type) {
+  switch (type) {
     case 0:
-      animation = {opacity: [1, 0]}
-    break;
+      animation = { opacity: [1, 0] }
+      break;
     case 1:
-      animation = {opacity: [0, 1]}
+      animation = { opacity: [0, 1] }
       display = 'block'
-    break;
+      break;
     case 'bounceUpIn':
       animation = {
-        begin: function(anim) {
+        begin: function (anim) {
           target.display('block')
         },
         translateY: [
@@ -123,10 +123,10 @@ const transition = function(target, type, complete) {
         opacity: [0, 1]
       }
       display = 'block'
-    break;
+      break;
     case 'shrinkIn':
       animation = {
-        begin: function(anim) {
+        begin: function (anim) {
           target.display('block')
         },
         scale: [
@@ -136,47 +136,47 @@ const transition = function(target, type, complete) {
         opacity: 1
       }
       display = 'block'
-    break;
+      break;
     case 'slideRightIn':
       animation = {
-        begin: function(anim) {
+        begin: function (anim) {
           target.display('block')
         },
         translateX: [100, 0],
         opacity: [0, 1]
       }
       display = 'block'
-    break;
+      break;
     case 'slideRightOut':
       animation = {
         translateX: [0, 100],
         opacity: [1, 0]
       }
-    break;
+      break;
     default:
       animation = type
       display = type.display
-    break;
+      break;
   }
   anime(Object.assign({
     targets: target,
     duration: 200,
     easing: 'linear'
-  }, animation)).finished.then(function() {
-      target.display(display)
-      complete && complete()
-    });
+  }, animation)).finished.then(function () {
+    target.display(display)
+    complete && complete()
+  });
 }
 
 const store = {
-  get: function(item) {
+  get: function (item) {
     return localStorage.getItem(item);
   },
-  set: function(item, str) {
+  set: function (item, str) {
     localStorage.setItem(item, str);
     return str;
   },
-  del: function(item) {
+  del: function (item) {
     localStorage.removeItem(item);
   }
 }
