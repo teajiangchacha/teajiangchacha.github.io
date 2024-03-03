@@ -1,0 +1,75 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "爱与和平",
+    "subtitle": "the author of jjwxc",
+    "icon": "https://www.guiwuli.icu/images/favicon.ico",
+    "description": "life sharing",
+    "home_page_url": "https://www.guiwuli.icu",
+    "items": [
+        {
+            "id": "https://www.guiwuli.icu/2024/03/03/Writing/%E3%80%8A%E4%BB%96%E7%9A%84%E9%BB%91%E6%9C%88%E5%85%89%E3%80%8B/",
+            "url": "https://www.guiwuli.icu/2024/03/03/Writing/%E3%80%8A%E4%BB%96%E7%9A%84%E9%BB%91%E6%9C%88%E5%85%89%E3%80%8B/",
+            "title": "《他的黑月光》",
+            "date_published": "2024-03-03T12:37:35.000Z",
+            "content_html": "",
+            "tags": [
+                "创作",
+                "创作"
+            ]
+        },
+        {
+            "id": "https://www.guiwuli.icu/2024/03/03/Writing/%E3%80%8A%E5%BF%83%E7%AE%97%E6%B3%95%E5%88%99%E3%80%8B/",
+            "url": "https://www.guiwuli.icu/2024/03/03/Writing/%E3%80%8A%E5%BF%83%E7%AE%97%E6%B3%95%E5%88%99%E3%80%8B/",
+            "title": "《心算法则》",
+            "date_published": "2024-03-03T10:38:19.000Z",
+            "content_html": "",
+            "tags": [
+                "创作",
+                "创作"
+            ]
+        },
+        {
+            "id": "https://www.guiwuli.icu/2024/03/03/Read/%E9%98%85%E8%AF%BB%E6%8E%A8%E8%8D%90/",
+            "url": "https://www.guiwuli.icu/2024/03/03/Read/%E9%98%85%E8%AF%BB%E6%8E%A8%E8%8D%90/",
+            "title": "阅读推荐",
+            "date_published": "2024-03-03T05:47:44.000Z",
+            "content_html": "",
+            "tags": [
+                "阅读",
+                "阅读"
+            ]
+        },
+        {
+            "id": "https://www.guiwuli.icu/2024/03/03/Film-Sharing/%E8%A7%82%E5%BD%B1%E6%84%9F%E6%82%9F/",
+            "url": "https://www.guiwuli.icu/2024/03/03/Film-Sharing/%E8%A7%82%E5%BD%B1%E6%84%9F%E6%82%9F/",
+            "title": "观影感悟",
+            "date_published": "2024-03-03T05:47:26.000Z",
+            "content_html": "",
+            "tags": [
+                "电影",
+                "电影"
+            ]
+        },
+        {
+            "id": "https://www.guiwuli.icu/2024/03/03/Writing/%E7%95%AA%E5%A4%96%E5%89%A7%E5%9C%BA/",
+            "url": "https://www.guiwuli.icu/2024/03/03/Writing/%E7%95%AA%E5%A4%96%E5%89%A7%E5%9C%BA/",
+            "title": "番外剧场",
+            "date_published": "2024-03-03T05:46:44.251Z",
+            "content_html": "",
+            "tags": [
+                "创作",
+                "番外"
+            ]
+        },
+        {
+            "id": "https://www.guiwuli.icu/2024/03/02/Writing/%E6%96%B0%E4%B9%A6%E7%9B%B4%E8%BE%BE/",
+            "url": "https://www.guiwuli.icu/2024/03/02/Writing/%E6%96%B0%E4%B9%A6%E7%9B%B4%E8%BE%BE/",
+            "title": "新书直达——《金鱼入沼》",
+            "date_published": "2024-03-02T15:53:54.000Z",
+            "content_html": "<p>《金鱼入沼》</p>\n",
+            "tags": [
+                "创作"
+            ]
+        }
+    ]
+}
