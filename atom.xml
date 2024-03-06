@@ -8,11 +8,19 @@
     <author>
       <name>Gui Wuli</name>
     </author>
-    <updated>2024-03-06T09:52:46.000Z</updated>
+    <updated>2024-03-06T12:49:54.000Z</updated>
     <category term="创作" />
     <category term="代码" />
     <category term="生活" />
     <category term="blog" />
+    <entry>
+        <id>https://www.guiwuli.icu/2024/03/06/%E6%B5%8B%E8%AF%95/</id>
+        <title>测试</title>
+        <link rel="alternate" href="https://www.guiwuli.icu/2024/03/06/%E6%B5%8B%E8%AF%95/"/>
+        <content type="html">&lt;p&gt;达到就好好草坪和&lt;/p&gt;
+</content>
+        <updated>2024-03-06T12:49:54.000Z</updated>
+    </entry>
     <entry>
         <id>https://www.guiwuli.icu/2024/03/06/code/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</id>
         <title>前端学习日记</title>
