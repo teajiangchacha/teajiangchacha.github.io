@@ -8,11 +8,27 @@
     <author>
       <name>Gui Wuli</name>
     </author>
-    <updated>2024-03-06T13:14:30.000Z</updated>
+    <updated>2024-03-06T13:20:26.000Z</updated>
     <category term="创作" />
     <category term="代码" />
     <category term="生活" />
     <category term="blog" />
+    <entry>
+        <id>https://www.guiwuli.icu/2024/03/06/read/%E5%A5%BD%E4%B9%A6%E5%9C%A8%E9%98%85/</id>
+        <title>好书在阅</title>
+        <link rel="alternate" href="https://www.guiwuli.icu/2024/03/06/read/%E5%A5%BD%E4%B9%A6%E5%9C%A8%E9%98%85/"/>
+        <content type="html"></content>
+        <category term="read" scheme="https://www.guiwuli.icu/categories/read/" />
+        <updated>2024-03-06T13:20:26.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://www.guiwuli.icu/2024/03/06/film-sharing/%E5%BD%B1%E8%A7%86%E6%8E%A8%E8%8D%90/</id>
+        <title>影视推荐</title>
+        <link rel="alternate" href="https://www.guiwuli.icu/2024/03/06/film-sharing/%E5%BD%B1%E8%A7%86%E6%8E%A8%E8%8D%90/"/>
+        <content type="html"></content>
+        <category term="film-sharing" scheme="https://www.guiwuli.icu/categories/film-sharing/" />
+        <updated>2024-03-06T13:17:41.000Z</updated>
+    </entry>
     <entry>
         <id>https://www.guiwuli.icu/2024/03/06/writing/%E9%A2%84%E6%94%B6%E6%96%B0%E4%BD%9C/</id>
         <title>预收新作</title>
