@@ -8,19 +8,11 @@
     <author>
       <name>Gui Wuli</name>
     </author>
-    <updated>2024-03-06T12:52:25.000Z</updated>
+    <updated>2024-03-06T12:49:54.000Z</updated>
     <category term="创作" />
     <category term="代码" />
     <category term="生活" />
     <category term="blog" />
-    <entry>
-        <id>https://www.guiwuli.icu/2024/03/06/writing/%E6%96%B0%E4%B9%A6%E7%9B%B4%E8%BE%BE%E2%80%94%E2%80%94%E3%80%8A%E9%87%91%E9%B1%BC%E5%85%A5%E6%B2%BC%E3%80%8B/</id>
-        <title>新书直达——《金鱼入沼》</title>
-        <link rel="alternate" href="https://www.guiwuli.icu/2024/03/06/writing/%E6%96%B0%E4%B9%A6%E7%9B%B4%E8%BE%BE%E2%80%94%E2%80%94%E3%80%8A%E9%87%91%E9%B1%BC%E5%85%A5%E6%B2%BC%E3%80%8B/"/>
-        <content type="html">&lt;p&gt;v 放大率恐怕&lt;/p&gt;
-</content>
-        <updated>2024-03-06T12:52:25.000Z</updated>
-    </entry>
     <entry>
         <id>https://www.guiwuli.icu/2024/03/06/%E6%B5%8B%E8%AF%95/</id>
         <title>测试</title>
@@ -68,5 +60,15 @@
         <content type="html"></content>
         <category term="writing" scheme="https://www.guiwuli.icu/categories/writing/" />
         <updated>2024-03-03T05:46:44.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://www.guiwuli.icu/2024/03/02/writing/%E6%96%B0%E4%B9%A6%E7%9B%B4%E8%BE%BE%E2%80%94%E2%80%94%E3%80%8A%E9%87%91%E9%B1%BC%E5%85%A5%E6%B2%BC%E3%80%8B/</id>
+        <title>新书直达——《金鱼入沼》</title>
+        <link rel="alternate" href="https://www.guiwuli.icu/2024/03/02/writing/%E6%96%B0%E4%B9%A6%E7%9B%B4%E8%BE%BE%E2%80%94%E2%80%94%E3%80%8A%E9%87%91%E9%B1%BC%E5%85%A5%E6%B2%BC%E3%80%8B/"/>
+        <content type="html">&lt;p&gt;v 放大率恐怕&lt;/p&gt;
+</content>
+        <category term="writing" scheme="https://www.guiwuli.icu/categories/writing/" />
+        <category term="创作" scheme="https://www.guiwuli.icu/tags/%E5%88%9B%E4%BD%9C/" />
+        <updated>2024-03-02T15:53:54.000Z</updated>
     </entry>
 </feed>
