@@ -10,12 +10,19 @@
         </author>
         <description>life sharing</description>
         <language>zh-CN,en,default</language>
-        <pubDate>Mon, 04 Mar 2024 21:59:19 +0800</pubDate>
-        <lastBuildDate>Mon, 04 Mar 2024 21:59:19 +0800</lastBuildDate>
+        <pubDate>Wed, 06 Mar 2024 16:29:11 +0800</pubDate>
+        <lastBuildDate>Wed, 06 Mar 2024 16:29:11 +0800</lastBuildDate>
         <category term="创作" />
         <category term="代码" />
         <category term="生活" />
         <category term="blog" />
+        <item>
+            <guid isPermalink="true">https://www.guiwuli.icu/2024/03/06/code/%E5%89%8D%E7%AB%AF/</guid>
+            <title>前端</title>
+            <link>https://www.guiwuli.icu/2024/03/06/code/%E5%89%8D%E7%AB%AF/</link>
+            <pubDate>Wed, 06 Mar 2024 16:29:11 +0800</pubDate>
+            <description><![CDATA[  ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://www.guiwuli.icu/2024/03/04/writing/%E3%80%8A%E6%AC%B2%E5%A3%91%E3%80%8B/</guid>
             <title>《欲壑》</title>
