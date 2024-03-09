@@ -1,24 +1,24 @@
 {
     "Version": 1,
-    "Name": "归无里",
-    "ModelID": "0d92394902d34d2286f4e2c40e2bbe7a",
+    "Name": "guiwuli",
+    "ModelID": "4a614710d42543e0b45cbc9d016f3633",
     "FileReferences": {
         "Icon": "",
-        "Model": "归无里.model3.json",
+        "Model": "guiwuli.model3.json",
         "IdleAnimation": "",
         "IdleAnimationWhenTrackingLost": ""
     },
     "ModelSaveMetadata": {
-        "LastSavedVTubeStudioVersion": "1.28.15",
-        "LastSavedPlatform": "Steam",
-        "LastSavedDateUTC": "Friday, 08 March 2024, 11:30:37",
-        "LastSavedDateLocalTime": "Friday, 08 March 2024, 19:30:37",
-        "LastSavedDateUnixMillisecondTimestamp": "1709897437658"
+        "LastSavedVTubeStudioVersion": "1.27.5",
+        "LastSavedPlatform": "Smartphone",
+        "LastSavedDateUTC": "Saturday, 09 March 2024, 02:36:06",
+        "LastSavedDateLocalTime": "Saturday, 09 March 2024, 10:36:06",
+        "LastSavedDateUnixMillisecondTimestamp": "1709951766078"
     },
     "SavedModelPosition": {
         "Position": {
-            "x": -0.026323389261960985,
-            "y": 0.29420003294944765,
+            "x": -1.829209327697754,
+            "y": 3.181812286376953,
             "z": 0.0
         },
         "Rotation": {
@@ -409,7 +409,7 @@
                 "Trigger1": "N1",
                 "Trigger2": "",
                 "Trigger3": "",
-                "ScreenButton": -1
+                "ScreenButton": 1
             },
             "IsGlobal": true,
             "IsActive": true,
@@ -422,8 +422,8 @@
             "FadeSecondsAmount": 0.5,
             "OnScreenHotkeyColor": {
                 "r": 1.0,
-                "g": 1.0,
-                "b": 1.0,
+                "g": 0.0,
+                "b": 0.3911728858947754,
                 "a": 1.0
             }
         },
@@ -475,10 +475,10 @@
                 "LoadAtCurrentPosition": true
             },
             "Triggers": {
-                "Trigger1": "N2",
+                "Trigger1": "Tab",
                 "Trigger2": "",
                 "Trigger3": "",
-                "ScreenButton": -1
+                "ScreenButton": 2
             },
             "IsGlobal": true,
             "IsActive": true,
@@ -616,7 +616,7 @@
                 "Trigger1": "N3",
                 "Trigger2": "",
                 "Trigger3": "",
-                "ScreenButton": -1
+                "ScreenButton": 3
             },
             "IsGlobal": true,
             "IsActive": true,
@@ -685,7 +685,7 @@
                 "Trigger1": "N4",
                 "Trigger2": "",
                 "Trigger3": "",
-                "ScreenButton": -1
+                "ScreenButton": 4
             },
             "IsGlobal": true,
             "IsActive": true,
@@ -698,8 +698,8 @@
             "FadeSecondsAmount": 0.5,
             "OnScreenHotkeyColor": {
                 "r": 1.0,
-                "g": 1.0,
-                "b": 1.0,
+                "g": 0.0,
+                "b": 0.8164868354797363,
                 "a": 1.0
             }
         },
@@ -754,7 +754,7 @@
                 "Trigger1": "N5",
                 "Trigger2": "",
                 "Trigger3": "",
-                "ScreenButton": -1
+                "ScreenButton": 5
             },
             "IsGlobal": true,
             "IsActive": true,
@@ -823,7 +823,7 @@
                 "Trigger1": "N7",
                 "Trigger2": "",
                 "Trigger3": "",
-                "ScreenButton": -1
+                "ScreenButton": 6
             },
             "IsGlobal": true,
             "IsActive": true,
@@ -843,7 +843,7 @@
         }
     ],
     "HotkeySettings": {
-        "UseOnScreenHotkeys": false,
+        "UseOnScreenHotkeys": true,
         "UseKeyboardHotkeys": true,
         "SendOnScreenHotkeysToPC": true,
         "OnScreenHotkeyAlpha": 75
